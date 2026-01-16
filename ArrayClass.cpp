@@ -119,43 +119,7 @@ public:
 // MAIN FUNCTION - Testing the class
 int main() {
     MyArray arr;  // Creating object
-    // Adding initial elements
-    arr.insertAtEnd(10);
-    arr.insertAtEnd(20);
-    arr.insertAtEnd(30);
-    arr.insertAtEnd(40);
-    arr.insertAtEnd(50);
-    arr.display();
-
-    // Update
-    arr.update(2, 999);
-    arr.display();
-
-    // Insert at beginning
-    arr.insertAtBeginning(5);
-    arr.display();
-
-    // Insert at end again
-    arr.insertAtEnd(60);
-    arr.display();
-
-    // Delete from end
-    arr.deleteFromEnd();
-    arr.display();
-
-    // Delete from beginning
-    arr.deleteFromBeginning();
-    arr.display();
-
-    // Search
-    arr.search(40);
-    arr.search(999);
-    arr.search(100); // not found
-
-    // Final state
-    cout << "\nFinal Array:\n";
-    arr.display();
-    cout << "Current size: " << arr.getSize() << endl;
-
+    
     return 0;
 }
+
